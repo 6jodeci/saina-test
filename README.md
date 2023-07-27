@@ -33,7 +33,7 @@
 ## Интерфейс командной строки
 Пример вызова:
 ```
-go run main.go -u http://localhost:8080/api -n 50 -i 10s -t 60s
+go run main.go -u "https://example.com/api/v1" -n 10 -i 5s -t 30s
 ```
 ### Где:
 - \-u URL тестируемого API
